@@ -32,7 +32,7 @@
 
 .lista-menu__titulo, .lista-menu__item {
     padding: 1em;
-    background-color: var(--branco);
+    background-color: #FFFFFF;
 }
 
 .lista-menu__titulo {
@@ -41,7 +41,7 @@
 }
 
 .lista-menu__link {
-    background: var(--azul-degrade);
+    background-color: #002F52;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -94,14 +94,8 @@
         color: black;
 }
 
-.container__imagem-transparente {
-        display: none;
 }
 
-.cabecalho__menu-hamburger {
-    display:none;
-}
-}
 
 .opcoes__botao:checked ~ .lista-menu {
     display: block;
