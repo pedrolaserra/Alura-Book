@@ -30,9 +30,10 @@
     display: block;
 }
 
-.lista-menu__titulo, .lista-menu__item {
-    padding: 1em;
-    background-color: #FFFFFF;
+.lista-menu__titulo,
+.lista-menu__item {
+    display: block;
+    background-color: white;
 }
 
 .lista-menu__titulo {
@@ -95,7 +96,6 @@
 }
 
 }
-
 
 .opcoes__botao:checked ~ .lista-menu {
     display: block;
